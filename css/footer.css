@@ -1,0 +1,25 @@
+.footer{
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 100%;
+}
+
+.footer__descripcion{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-top: 25px;
+}
+
+@media only screen and (max-device-width:375px){
+    .footer{
+        max-width: 375px;
+        height: 102px;
+    }
+    .footer__descripcion{
+        margin-top: 12px;
+        padding: 31px;
+        font-size: 13px;
+    }
+}

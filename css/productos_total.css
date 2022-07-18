@@ -1,0 +1,230 @@
+.productos__total{
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 64px 0;
+}
+
+.productos__total--titulo{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-bottom: 20px;
+    margin-top: 64px;
+    margin-right: 180px;
+    margin-left: 200px;
+}
+
+.titulo__total{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.titulo__link{
+    width: 163px;
+    height: 51px;
+    border: none;
+    background-color: #2a7ae4;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 240px;
+}
+
+.titulo__link:hover{
+    background: #5595e9;
+}
+
+.agregar__boton{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.productos__total--lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1160px;
+    padding: 0px;
+    margin-bottom: 64px;
+}
+
+.productos__total--item{
+    transition: 0.5s all;
+    padding: 0.6%;
+}
+
+.productos__total--item:hover{
+    transform: scale(1.10);
+}
+
+.productos__total--imagen{
+    vertical-align: middle;
+}
+
+.productos__total--nombre{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+    margin: 4px 0px;
+}
+
+.productos__total--precio{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.productos__total--numero{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    color: #464646;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media only screen and (max-device-width:375px){
+    .productos__total{
+        justify-content: flex-start;
+        width: 360px;
+        height: 2547px;
+        padding: 0;
+    }
+    .titulo__total{
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        padding: 0;
+        align-items: center;
+    }
+    .productos__total--titulo{
+        margin: 0;
+        width: 214px;
+        height: 26px;
+        font-size: 22px;
+        padding: 32px 114px 16px 5px
+    }
+    .productos__total--lista{
+        height: 249px;
+    }
+    .titulo__link{
+        width: 150px;
+        height: 40px;
+        margin: 16px 178px 16px 5px;
+        padding: 0;
+    }
+    .agregar__boton{
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .lista__total{
+        width: 360px;
+    }
+    .productos__total--lista{
+        width: 360px;
+        justify-content: space-around;
+    }
+    .productos__total--imagen{
+        width: 140px;
+    }
+    .productos__total--nombre{
+        width: 140px;
+        height: 16px;
+    }
+    .productos__total--precio{
+        width: 140px;
+        height: 19px;
+    }
+    .productos__total--numero{
+        width: 140px;
+        height: 16px;
+    }
+    .productos__total--item{
+        height: 249px;
+        padding: 5px;
+        width: 140px;
+    }
+    .productos__total--item:hover{
+        transform: scale(1);
+    }
+}
+
+@media (min-device-width:375px) and (max-device-width:768px){
+    .productos__total{
+        width: 768px;
+        height: 1429px;
+        padding-top: 16px;
+        justify-content: initial;
+    }
+    .titulo__total{
+        width: 768px;
+        height: 40px;
+        align-items: center;
+        margin-top: 16px;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .productos__total--titulo{
+        width: 201px;
+        height: 26px;
+        font-size: 22px;
+        padding: 0;
+        margin: 0;
+        margin-left: 30px;
+    }
+    .titulo__link{
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        height: 40px;
+        margin-right: 14px;
+    }
+    .lista__total{
+        width: 768px;
+        height: 1309px;
+    }
+    .productos__total--lista{
+        width: 768px;
+        height: 1309px;
+        justify-content: initial;
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+    .productos__total--item{
+        padding-left: 22px;
+    }
+    .productos__total--imagen{
+        width: 164px;
+        height: 174px;
+    }
+    .productos__total--nombre{
+        width: 164px;
+        height: 16px;
+        font-size: 14px;
+    }
+    .productos__total--precio{
+        width: 164px;
+        height: 16px;
+        font-size: 16px;
+    }
+    .productos__total--numero{
+        width: 164px;
+        height: 16px;
+        font-size: 14px;
+    }
+}
